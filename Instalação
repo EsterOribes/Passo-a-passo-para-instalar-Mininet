@@ -1,0 +1,36 @@
+Passo 1: Instalação do VirtualBox
+1.1. Baixar o VirtualBox
+·	Acesse o site oficial do VirtualBox: https://www.virtualbox.org/.
+·	Baixe a versão do VirtualBox compatível com seu sistema operacional (Windows, Linux, macOS).
+1.2. Instalar o VirtualBox
+·	Execute o arquivo de instalação que você baixou.
+·	Siga o assistente de instalação, aceitando as opções padrão.
+·	Quando terminar, inicie o VirtualBox.
+Passo 2: Download do Mininet OVF
+2.1. Baixar o arquivo OVF do Mininet
+·	Acesse o repositório oficial do Mininet no GitHub: https://github.com/mininet/mininet/releases.
+·	Procure pela versão do arquivo mininet-2.3.0-210211-ubuntu-20.04.1-legacy-server-amd64-ovf.zip na seção de "Assets".
+·	Baixe o arquivo ZIP contendo o OVF.
+2.2. Extrair o arquivo ZIP
+·	Após o download do arquivo ZIP, extraia seu conteúdo para um diretório de sua escolha. O arquivo extraído deve incluir:
+·	Um arquivo .ovf (que define a máquina virtual).
+·	Um arquivo .vmdk (a imagem do disco da máquina virtual).
+Passo 3: Importando a Máquina Virtual no VirtualBox
+3.1. Importar o arquivo OVF
+1.	Abra o VirtualBox.
+2.	No menu principal, clique em Arquivo > Importar Aplicação Virtual.
+3.	Na janela que se abrirá, clique em Escolher Arquivo e navegue até o diretório onde você extraiu o arquivo OVF do Mininet.
+4.	Selecione o arquivo mininet-2.3.0-210211-ubuntu-20.04.1-legacy-server-amd64.ovf e clique em Abrir.
+5.	Clique em Próximo para continuar.
+6.	O VirtualBox mostrará as configurações da máquina virtual. Aqui, você pode ajustar parâmetros como a quantidade de RAM ou espaço em disco. Se não desejar fazer ajustes, clique em Importar para começar o processo.
+3.2. Configurações da Máquina Virtual (Opcional)
+·	Após a importação, você pode ajustar configurações como memória RAM ou número de processadores clicando na VM do Mininet e depois em Configurações.
+·	Recomenda-se alocar pelo menos 2GB de RAM para o Mininet, dependendo da capacidade de seu sistema.
+Passo 4: Inicializando a Máquina Virtual
+4.1. Iniciar a Máquina Virtual
+·	Selecione a máquina virtual Mininet recém-importada e clique em Iniciar.
+·	A máquina será inicializada no sistema Ubuntu 20.04 com Mininet pré-instalado.
+4.2. Login no Mininet
+·	Após a inicialização, você verá o prompt de login. Use as credenciais padrão:
+·	Usuário: mininet
+·	Senha: mininet
